@@ -8,7 +8,3 @@ ribbon:
     enabled:  false
 zuul:
   ignoreLocalService: false
-  routes:
-    backendClient:
-      path: /api/home
-      serviceId:  backend-client
