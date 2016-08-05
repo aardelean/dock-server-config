@@ -3,14 +3,6 @@ server:
 spring:
   application:
     name: zuul-gateway
-  cloud:
-    consul:
-      host: 192.168.178.19
-      port: 8500
-    config:
-      server:
-        git:
-          uri: https://github.com/aardelean/dock-server-config
 ribbon:
   eureka:
     enabled:  false
