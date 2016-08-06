@@ -1,7 +1,7 @@
 spring:
   cloud:
     consul:
-      host: localhost
+      host: 192.168.178.19
       port: 8500
 zuul:
   ignoreLocalService: false
