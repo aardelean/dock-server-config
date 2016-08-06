@@ -1,2 +1,11 @@
 config:
   name: Remote
+zuul:
+  ignoreLocalService: false
+  routes:
+    backendClient:
+      path: /api/home
+      serviceId:  backend-server
+backend-server:
+  ribbon:
+    listOfServers:  localhost:9023
