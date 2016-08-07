@@ -2,6 +2,6 @@ backend-server-v1:
   ribbon:
     listOfServers:  localhost:9022
 proxy:
-  to: backend-server-v1
+  to: backend-server-v2
 config:
   name: Lion
