@@ -10,5 +10,8 @@ spring:
       enabled: false
       config:
         enabled: false
+backend-server-v1:
+  ribbon:
+    listOfServers:  localhost:9022
 proxy:
-  to: backend-server
+  to: backend-server-v1
