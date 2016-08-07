@@ -15,3 +15,5 @@ backend-server-v1:
     listOfServers:  localhost:9022
 proxy:
   to: backend-server-v1
+config:
+  name: Remote
