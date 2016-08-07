@@ -1,7 +1,14 @@
 spring:
+  application:
+    name: backend-client
   cloud:
+    bus:
+      enabled: false
+    discovery:
+      enabled: false
     consul:
-      host: localhost
-      port: 8500
+      enabled: false
+      config:
+        enabled: false
 proxy:
   to: backend-server
