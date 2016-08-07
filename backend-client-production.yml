@@ -3,3 +3,5 @@ spring:
     consul:
       host: ${CONSUL_SERVER}
       port: 8500
+proxy:
+  to: backend-server
