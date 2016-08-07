@@ -1,10 +1,8 @@
-config:
-  name: Remote zwei
 zuul:
   ignoreLocalService: false
   routes:
-    backendClient:
-      path: /api/gist
+    backend-server:
+      path: /api/home
       serviceId:  backend-server
 backend-server:
   ribbon:
