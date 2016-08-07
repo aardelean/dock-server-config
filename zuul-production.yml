@@ -1,1 +1,6 @@
-
+zuul:
+  ignoreLocalService: false
+  routes:
+    backend-server:
+      path: /api/home
+      serviceId:  backend-server
