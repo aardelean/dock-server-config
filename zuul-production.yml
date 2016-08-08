@@ -1,6 +1,6 @@
 zuul:
   ignoreLocalService: false
-  ignore-services:  '*'
+  ignoreServices:  '*'
   routes:
     pdf-html:
       path: /pdf
