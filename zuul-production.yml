@@ -3,14 +3,14 @@ zuul:
   ignoredServices:  pdf-service-8888, pdf-html
   routes:
     pdf-html:
-      path: /pdf
+      path: /pdf/**
       serviceId:  pdf-html
     pdf-service:
-      path: /pdf-service
+      path: /pdf-service/**
       serviceId:  pdf-service-8888
     pdf-generator:
       path: /pdf-generator
       serviceId:  pdf-generator
     loggers:
-      path: /log-viewer
+      path: /log-viewer/**
       serviceId:  log-viewer
