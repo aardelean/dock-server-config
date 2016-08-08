@@ -7,9 +7,3 @@ zuul:
     pdf-service:
       path: /pdf-service
       serviceId:  pdf-service-8888
-    pdf-generator:
-      path: /pdf-generator
-      serviceId:  pdf-generator
-    log-viewer:
-      path: /log-viewer
-      serviceId:  log-viewer
