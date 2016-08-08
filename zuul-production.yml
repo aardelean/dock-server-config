@@ -7,7 +7,15 @@ spring:
       port: 8500
 zuul:
   ignoreLocalService: false
+  ignore-services:  *
   routes:
-    backend-server:
-      path: /api/home
-      serviceId:  backend-server
+    pdf-html:
+      path: /pdf
+      serviceId:  pdf-html
+    pdf-service:
+      path: /pdf-service
+      serviceId:  pdf-service-8888
+    pdf-generator:
+      path: /pdf-generator
+      serviceId:  pdf-generator
+    
