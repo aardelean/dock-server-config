@@ -11,6 +11,7 @@ zuul:
     pdf-generator:
       path: /pdf-generator
       serviceId:  pdf-generator
-    loggers:
+    log-viewer:
       path: /log-viewer/**
       serviceId:  log-viewer
+    
