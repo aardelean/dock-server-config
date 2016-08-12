@@ -12,7 +12,7 @@ zuul:
       path: /pdf-generator
       serviceId:  pdf-generator
     log-viewer:
-      path: /log-viewer/**
+      path: /log-viewer
       serviceId:  log-viewer
       stripPrefix: false
     dist:
