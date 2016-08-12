@@ -19,3 +19,7 @@ zuul:
       path: /dist/**
       serviceId:  log-viewer
       stripPrefix: false
+    log:
+      path: /log/**
+      serviceId:  loggins
+      stripPrefix: false
