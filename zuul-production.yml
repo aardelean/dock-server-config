@@ -14,4 +14,8 @@ zuul:
     log-viewer:
       path: /log-viewer/**
       serviceId:  log-viewer
-    
+      stripPrefix: false
+    dist:
+      path: /dist/**
+      serviceId:  log-viewer
+      stripPrefix: false
