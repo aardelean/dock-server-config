@@ -1,32 +1,9 @@
-server:
-  tomcat:
-    remote_ip_header: x-forwarded-for
-    protocol_header: x-forwarded-proto
-zuul:
-  ignoreLocalService: false
-  ignoredServices:  pdf-service-8888, pdf-html, consul-*, docker-proxy, etcd-*, memcached,mongo, mysql, nginx-*, rabbitmq-*
-  routes:
-    pdf-html:
-      path: /pdf/**
-      serviceId:  pdf-html
-    pdf-service:
-      path: /pdf-service/**
-      serviceId:  pdf-service-8888
-    pdf-generator:
-      path: /pdf-generator
-      serviceId:  pdf-generator
-    log-viewer:
-      path: /log-viewer
-      serviceId:  log-viewer
-      stripPrefix: false
-    dist:
-      path: /dist/**
-      serviceId:  log-viewer
-      stripPrefix: false
-    log:
-      path: /log/**
-      serviceId:  loggins
-      stripPrefix: false
+spring:
+  application:
+    name: zuul
+  cloud:
+    consul:
+      enabled:  false
 security:
   sessions: ALWAYS
   oauth2:
