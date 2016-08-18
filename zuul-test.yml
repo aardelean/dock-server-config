@@ -9,4 +9,4 @@ security:
     resource:
       preferTokenInfo:  false
       userInfoUri: https://test.appdirect.com/oauth/openid/userinfo
-configuration-test: Hello there!
+configuration-test: Hello there cowboy!
