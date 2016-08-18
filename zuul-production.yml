@@ -27,10 +27,10 @@ security:
   sessions: ALWAYS
   oauth2:
     client:
-      clientId: BTbb9rmswN
-      clientSecret: FfsGRZ7tcbaJczDfJaz1
-      accessTokenUri: https://appdirect.com/oauth/token
-      userAuthorizationUri: https://appdirect.com/oauth/authorize
+      clientId: TnDtPykgih
+      clientSecret: fe40xgPd2wwqI3o1tLGD
+      accessTokenUri: https://test.appdirect.com/oauth/token
+      userAuthorizationUri: https://test.appdirect.com/oauth/authorize
     resource:
       preferTokenInfo:  false
-      userInfoUri: https://appdirect.com/oauth/openid/userinfo
+      userInfoUri: https://test.appdirect.com/oauth/openid/userinfo
