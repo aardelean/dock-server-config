@@ -31,6 +31,7 @@ security:
       clientSecret: fe40xgPd2wwqI3o1tLGD
       accessTokenUri: https://test.appdirect.com/oauth/token
       userAuthorizationUri: https://test.appdirect.com/oauth/authorize
+      registered-redirect-uri: https://dock-server.duckdns.org/login
     resource:
       preferTokenInfo:  false
       userInfoUri: https://test.appdirect.com/oauth/openid/userinfo
