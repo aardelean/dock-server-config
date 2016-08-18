@@ -23,3 +23,14 @@ zuul:
       path: /log/**
       serviceId:  loggins
       stripPrefix: false
+security:
+  sessions: ALWAYS
+  oauth2:
+    client:
+      clientId: TnDtPykgih
+      clientSecret: fe40xgPd2wwqI3o1tLGD
+      accessTokenUri: https://test.appdirect.com/oauth/token
+      userAuthorizationUri: https://test.appdirect.com/oauth/authorize
+    resource:
+      preferTokenInfo:  false
+      userInfoUri: https://test.appdirect.com/oauth/openid/userinfo
