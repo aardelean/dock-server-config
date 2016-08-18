@@ -1,9 +1,3 @@
-spring:
-  application:
-    name: zuul
-  cloud:
-    consul:
-      enabled:  false
 security:
   sessions: ALWAYS
   oauth2:
