@@ -36,6 +36,7 @@ security:
       accessTokenUri: https://test.appdirect.com/oauth/token
       userAuthorizationUri: https://test.appdirect.com/oauth/authorize
       pre-established-redirect-uri: https://dock-server.duckdns.org/login
+      use-current-uri:  false
     resource:
       preferTokenInfo:  false
       userInfoUri: https://test.appdirect.com/oauth/openid/userinfo
