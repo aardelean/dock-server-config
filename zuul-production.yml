@@ -1,3 +1,4 @@
+configuration-test: I am in production!
 server:
   tomcat:
     remote_ip_header: x-forwarded-for
