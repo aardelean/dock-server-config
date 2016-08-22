@@ -28,6 +28,9 @@ zuul:
       path: /log/**
       serviceId:  loggins
       stripPrefix: false
+    jenkins:
+      path: /jenkins/**
+      serviceId:  jenkins-dind
 security:
   sessions: ALWAYS
   oauth2:
