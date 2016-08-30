@@ -11,8 +11,8 @@ zuul:
       path: /pdf/**
       serviceId:  pdf-html
     pdf-service:
-      path: /pdf-service/**
-      serviceId:  pdf-service-8888
+      path: /pdf-service
+      serviceId:  pdf-service
     pdf-generator:
       path: /pdf-generator
       serviceId:  pdf-generator
