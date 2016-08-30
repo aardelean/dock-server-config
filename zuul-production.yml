@@ -44,3 +44,4 @@ security:
     resource:
       preferTokenInfo:  false
       userInfoUri: https://appdirect.com/oauth/openid/userinfo
+unprotectedResources: /jenkins/**,/refresh
