@@ -37,11 +37,11 @@ security:
     client:
       clientId: BTbb9rmswN
       clientSecret: FfsGRZ7tcbaJczDfJaz1
-      accessTokenUri: https://appdirect.com/oauth/token
-      userAuthorizationUri: https://appdirect.com/oauth/authorize
+      accessTokenUri: https://www.appdirect.com/oauth/token
+      userAuthorizationUri: https://www.appdirect.com/oauth/authorize
       pre-established-redirect-uri: https://dock-server.duckdns.org/login
       use-current-uri:  false
     resource:
       preferTokenInfo:  false
-      userInfoUri: https://appdirect.com/oauth/openid/userinfo
+      userInfoUri: https://www.appdirect.com/oauth/openid/userinfo
 unprotectedResources: /jenkins/**,/refresh
