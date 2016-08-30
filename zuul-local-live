@@ -1,0 +1,40 @@
+zuul:
+  ignoreLocalService: false
+  ignoredServices:  pdf-service-8888, pdf-html, consul-*, docker-proxy, etcd-*, memcached,mongo, mysql, nginx-*, rabbitmq-*
+  routes:
+    pdf-html:
+      path: /pdf/**
+      serviceId:  pdf-html
+    pdf-service:
+      path: /pdf-service
+      serviceId:  pdf-service
+    pdf-generator:
+      path: /pdf-generator
+      serviceId:  pdf-generator
+    log-viewer:
+      path: /log-viewer
+      serviceId:  log-viewer
+      stripPrefix: false
+    dist:
+      path: /dist/**
+      serviceId:  log-viewer
+      stripPrefix: false
+    log:
+      path: /log/**
+      serviceId:  loggins
+      stripPrefix: false
+    jenkins:
+      path: /jenkins/**
+      serviceId:  jenkins-dind
+security:
+  sessions: ALWAYS
+  oauth2:
+    client:
+      clientId: scyC6FkMjE
+      clientSecret: B2dwnUTJJv4Tj5DnnG57
+      accessTokenUri: https://appdirect.com/oauth/token
+      userAuthorizationUri: https://appdirect.com/oauth/authorize
+    resource:
+      preferTokenInfo:  false
+      userInfoUri: https://appdirect.com/oauth/openid/userinfo
+configuration-test: Hello there cowboy!
