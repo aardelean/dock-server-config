@@ -32,9 +32,9 @@ security:
     client:
       clientId: scyC6FkMjE
       clientSecret: B2dwnUTJJv4Tj5DnnG57
-      accessTokenUri: https://appdirect.com/oauth/token
-      userAuthorizationUri: https://appdirect.com/oauth/authorize
+      accessTokenUri: https://www.appdirect.com/oauth/token
+      userAuthorizationUri: https://www.appdirect.com/oauth/authorize
     resource:
       preferTokenInfo:  false
-      userInfoUri: https://appdirect.com/oauth/openid/userinfo
+      userInfoUri: https://www.appdirect.com/oauth/openid/userinfo
 configuration-test: Hello there cowboy!
