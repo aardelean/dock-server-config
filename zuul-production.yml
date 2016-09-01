@@ -4,6 +4,8 @@ server:
     remote_ip_header: x-forwarded-for
     protocol_header: x-forwarded-proto
 zuul:
+  host:
+    socket-timeout-millis:  30000
   ignoreLocalService: false
   ignoredServices:  pdf-service-8888, pdf-html, consul-*, docker-proxy, etcd-*, memcached,mongo, mysql, nginx-*, rabbitmq-*
   routes:
