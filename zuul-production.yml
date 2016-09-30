@@ -21,6 +21,7 @@ zuul:
     pdf-service:
       path: /pdf-service
       serviceId:  pdf-service
+      stripPrefix: false
     pdf-generator:
       path: /pdf-generator
       serviceId:  pdf-generator
