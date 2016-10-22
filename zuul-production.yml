@@ -38,7 +38,7 @@ zuul:
       stripPrefix: false
     log:
       path: /log/**
-      serviceId:  loggins
+      serviceId:  loggings-elasticsearch
       stripPrefix: false
     jenkins:
       path: /jenkins/**
