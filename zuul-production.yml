@@ -56,4 +56,4 @@ security:
     resource:
       preferTokenInfo:  false
       userInfoUri: https://www.appdirect.com/oauth/openid/userinfo
-unprotectedResources: /jenkins/**,/refresh,/pdf-service,/pdf-generator/**,/pdf-service/**,/pdf/**,/log,/log-viewer
+unprotectedResources: /jenkins/**,/refresh,/pdf-service,/pdf-generator/**,/pdf-service/**,/pdf/**,/log
